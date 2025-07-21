@@ -1,0 +1,16 @@
+# Ignore logs and wordlists
+*.log
+*.txt
+!README.md
+!*.md
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large files (VM images, ISOs, etc.)
+*.iso
+*.vmdk
+*.ova
+*.qcow2
+*.img
